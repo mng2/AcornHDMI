@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PTN3381D
+D HDMI/DVI level shifter with 5V regulator, dongle detection, 3 Gbps
+K HDMI DVI
+$ENDCMP
+#
+#End Doc Library
