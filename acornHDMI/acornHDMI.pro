@@ -1,4 +1,4 @@
-update=Mon 28 Jun 2021 02:24:22 AM PDT
+update=Sat 04 Sep 2021 01:11:45 AM PDT
 version=1
 last_client=kicad
 [general]
@@ -48,6 +48,9 @@ ViaDrill2=0.381
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
+dPairWidth2=0.1524
+dPairGap2=0.1524
+dPairViaGap2=0.508
 SilkLineWidth=0.12
 SilkTextSizeV=1
 SilkTextSizeH=1
@@ -249,4 +252,15 @@ uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=diffpair
+Clearance=0.1524
+TrackWidth=0.1524
+ViaDiameter=0.4572
+ViaDrill=0.254
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.1524
+dPairGap=0.1524
 dPairViaGap=0.25

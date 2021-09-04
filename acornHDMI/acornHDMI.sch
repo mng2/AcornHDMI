@@ -1143,12 +1143,6 @@ Wire Wire Line
 	1350 4000 2000 4000
 Text Label 1700 3700 0    50   ~ 0
 AIO2P
-Text Label 1700 3800 0    50   ~ 0
-AIO2N
-Text Label 1700 4000 0    50   ~ 0
-AIO1P
-Text Label 1700 4100 0    50   ~ 0
-AIO1N
 Text Notes 850  4100 0    50   Italic 0
 K2\nJ2\n\n\nJ5\nH5
 Text Notes 850  2600 0    50   Italic 0
@@ -1170,12 +1164,36 @@ Wire Wire Line
 Connection ~ 2800 5650
 Wire Wire Line
 	1250 5750 2900 5750
-Text Label 2050 5550 0    50   ~ 0
-AIO2N
-Text Label 2050 5650 0    50   ~ 0
-AIO1P
-Text Label 2050 5750 0    50   ~ 0
-AIO1N
 Text Notes 3550 950  0    50   Italic 0
 C1/C2 are SMD/TH,\npick one to populate
+Text Label 8700 4500 0    50   ~ 0
+H_HPD
+Text Label 9000 5400 0    50   ~ 0
+H_5V
+Text Label 7550 4050 0    50   ~ 0
+H_SDA
+Text Label 7550 4150 0    50   ~ 0
+H_SCL
+Text Label 8100 3000 0    50   ~ 0
+H_D2+
+Text Label 8100 3100 0    50   ~ 0
+H_D2-
+Text Label 8200 3200 0    50   ~ 0
+H_D1+
+Text Label 8200 3300 0    50   ~ 0
+H_D1-
+Text Label 8300 3400 0    50   ~ 0
+H_D0+
+Text Label 8300 3500 0    50   ~ 0
+H_D0-
+Text Label 8400 3600 0    50   ~ 0
+H_CK+
+Text Label 8400 3700 0    50   ~ 0
+H_CK-
+Text Label 1750 3800 0    50   ~ 0
+SCL
+Text Label 1750 4000 0    50   ~ 0
+SDA
+Text Label 1700 4100 0    50   ~ 0
+INT_N
 $EndSCHEMATC
