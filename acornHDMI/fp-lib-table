@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name local)(type KiCad)(uri /home/makon/Desktop/hdmiboard/acornHDMI)(options "")(descr ""))
+  (lib (name local)(type KiCad)(uri ../acornHDMI)(options "")(descr ""))
+  (lib (name localfp)(type KiCad)(uri ${KIPRJMOD}/localfp.pretty)(options "")(descr "")(disabled))
 )
