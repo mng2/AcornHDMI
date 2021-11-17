@@ -1196,4 +1196,20 @@ Text Label 1750 4000 0    50   ~ 0
 SDA
 Text Label 1700 4100 0    50   ~ 0
 INT_N
+Text Label 4900 3000 0    50   ~ 0
+PTN1_N
+Text Label 4900 3100 0    50   ~ 0
+PTN1_P
+Text Label 4900 3250 0    50   ~ 0
+PTN2_N
+Text Label 4900 3350 0    50   ~ 0
+PTN2_P
+Text Label 4950 3600 0    50   ~ 0
+PTN3_P
+Text Label 4950 3500 0    50   ~ 0
+PTN3_N
+Text Label 4950 3750 0    50   ~ 0
+PTN4_N
+Text Label 4950 3850 0    50   ~ 0
+PTN4_P
 $EndSCHEMATC
