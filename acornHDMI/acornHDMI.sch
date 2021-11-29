@@ -1212,4 +1212,215 @@ Text Label 4950 3750 0    50   ~ 0
 PTN4_N
 Text Label 4950 3850 0    50   ~ 0
 PTN4_P
+$Comp
+L Device:C_Small C13
+U 1 1 61A3F9A1
+P 6250 1600
+F 0 "C13" H 6100 1450 50  0000 C CNN
+F 1 "10n" H 6100 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6250 1600 50  0001 C CNN
+F 3 "~" H 6250 1600 50  0001 C CNN
+	1    6250 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 61A52352
+P 6600 1600
+F 0 "C14" H 6450 1450 50  0000 C CNN
+F 1 "10n" H 6450 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6600 1600 50  0001 C CNN
+F 3 "~" H 6600 1600 50  0001 C CNN
+	1    6600 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 61A529CB
+P 6950 1600
+F 0 "C15" H 6800 1450 50  0000 C CNN
+F 1 "10n" H 6800 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6950 1600 50  0001 C CNN
+F 3 "~" H 6950 1600 50  0001 C CNN
+	1    6950 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 61A52EAA
+P 7250 1600
+F 0 "C16" H 7100 1450 50  0000 C CNN
+F 1 "10n" H 7100 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7250 1600 50  0001 C CNN
+F 3 "~" H 7250 1600 50  0001 C CNN
+	1    7250 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 61A7DA34
+P 7550 1600
+F 0 "C17" H 7400 1450 50  0000 C CNN
+F 1 "10n" H 7400 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7550 1600 50  0001 C CNN
+F 3 "~" H 7550 1600 50  0001 C CNN
+	1    7550 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 61A7DC16
+P 7900 1600
+F 0 "C18" H 7750 1450 50  0000 C CNN
+F 1 "10n" H 7750 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7900 1600 50  0001 C CNN
+F 3 "~" H 7900 1600 50  0001 C CNN
+	1    7900 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C19
+U 1 1 61A7DC20
+P 8250 1600
+F 0 "C19" H 8100 1450 50  0000 C CNN
+F 1 "10n" H 8100 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8250 1600 50  0001 C CNN
+F 3 "~" H 8250 1600 50  0001 C CNN
+	1    8250 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 61A7DC2A
+P 8550 1600
+F 0 "C20" H 8400 1450 50  0000 C CNN
+F 1 "10n" H 8400 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8550 1600 50  0001 C CNN
+F 3 "~" H 8550 1600 50  0001 C CNN
+	1    8550 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 61A9253C
+P 8850 1600
+F 0 "C21" H 8700 1450 50  0000 C CNN
+F 1 "10n" H 8700 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8850 1600 50  0001 C CNN
+F 3 "~" H 8850 1600 50  0001 C CNN
+	1    8850 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR01
+U 1 1 61A92AEC
+P 6250 1300
+F 0 "#PWR01" H 6250 1150 50  0001 C CNN
+F 1 "+3V3" H 6265 1473 50  0000 C CNN
+F 2 "" H 6250 1300 50  0001 C CNN
+F 3 "" H 6250 1300 50  0001 C CNN
+	1    6250 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 1300 6250 1350
+$Comp
+L power:GND #PWR02
+U 1 1 61AA5364
+P 6250 1900
+F 0 "#PWR02" H 6250 1650 50  0001 C CNN
+F 1 "GND" H 6255 1727 50  0000 C CNN
+F 2 "" H 6250 1900 50  0001 C CNN
+F 3 "" H 6250 1900 50  0001 C CNN
+	1    6250 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 1900 6250 1850
+Wire Wire Line
+	6600 1500 6600 1350
+Wire Wire Line
+	6600 1350 6250 1350
+Connection ~ 6250 1350
+Wire Wire Line
+	6250 1350 6250 1500
+Wire Wire Line
+	8850 1500 8850 1350
+Wire Wire Line
+	8850 1350 8550 1350
+Connection ~ 6600 1350
+Wire Wire Line
+	6950 1500 6950 1350
+Connection ~ 6950 1350
+Wire Wire Line
+	6950 1350 6600 1350
+Wire Wire Line
+	7250 1500 7250 1350
+Connection ~ 7250 1350
+Wire Wire Line
+	7250 1350 6950 1350
+Wire Wire Line
+	7550 1500 7550 1350
+Connection ~ 7550 1350
+Wire Wire Line
+	7550 1350 7250 1350
+Wire Wire Line
+	7900 1500 7900 1350
+Connection ~ 7900 1350
+Wire Wire Line
+	7900 1350 7550 1350
+Wire Wire Line
+	8250 1500 8250 1350
+Connection ~ 8250 1350
+Wire Wire Line
+	8250 1350 7900 1350
+Wire Wire Line
+	8550 1500 8550 1350
+Connection ~ 8550 1350
+Wire Wire Line
+	8550 1350 8250 1350
+Wire Wire Line
+	6600 1700 6600 1850
+Wire Wire Line
+	6600 1850 6250 1850
+Connection ~ 6250 1850
+Wire Wire Line
+	6250 1850 6250 1700
+Wire Wire Line
+	8850 1700 8850 1850
+Wire Wire Line
+	8850 1850 8550 1850
+Connection ~ 6600 1850
+Wire Wire Line
+	8550 1700 8550 1850
+Connection ~ 8550 1850
+Wire Wire Line
+	8550 1850 8250 1850
+Wire Wire Line
+	8250 1700 8250 1850
+Connection ~ 8250 1850
+Wire Wire Line
+	8250 1850 7900 1850
+Wire Wire Line
+	7900 1700 7900 1850
+Connection ~ 7900 1850
+Wire Wire Line
+	7900 1850 7550 1850
+Wire Wire Line
+	7550 1700 7550 1850
+Connection ~ 7550 1850
+Wire Wire Line
+	7550 1850 7250 1850
+Wire Wire Line
+	7250 1700 7250 1850
+Connection ~ 7250 1850
+Wire Wire Line
+	7250 1850 6950 1850
+Wire Wire Line
+	6950 1700 6950 1850
+Connection ~ 6950 1850
+Wire Wire Line
+	6950 1850 6600 1850
+Text Notes 1900 7250 0    79   ~ 0
+Address b0100_000x: PCA\nAddress b1010_000x: EDID
 $EndSCHEMATC
