@@ -3,7 +3,7 @@
 # AcornHDMI
 This is a design for a DVI/HDMI buffer, for use with the SQRL Acorn, an Artix-7 FPGA board originally intended for mining. It should also work with the RHS Research NiteFury/LiteFury, which are based on the same design as the Acorn.
 
-Current status: revision A boards in hand, parts in hand. First article soonish.
+Current status: revision A boards were assembled in late 2021. Working on bringup: [AcornHDMI-demo](https://github.com/mng2/AcornHDMI-demo)
 
 ## Why
 The SQRL Acorn CLE-215+ consists of the largest Artix-7 FPGA, some DDR3 memory, and associated support circuitry. Since it was designed as an accelerator board in M.2 format, it does not have much in the way of user I/O, merely 4 LVDS pairs on a 2.5V bank, and 2 pairs on a 3.3V bank.
@@ -26,9 +26,17 @@ This board was designed in KiCAD 5.1.something, with OSH Park's 4-layer board se
 
 My board design philosophy is to not push the limits if there's no need to, so while the spec at OSH Park is 5/5, I chose to use widths starting at 6 mils. There is one DRC complaint, eminently ignorable, which is that the silk for C2 slightly overlays the pad for C3.
 
-Note that this board uses HLV technology for the QFN pad. HLV (Hilariously Large Via) technology is probably incompatible with reflow processes -- this layout was designed for hand soldering, and utilizes the "hand soldering" variants of the surface mount components in the default library. If you intend to do reflow you will want to redesign with the appropriate footprints. 
+Note that this board uses HLV technology for the QFN pad. HLV (Hilariously Large Via) technology is probably incompatible with reflow processes -- this layout was designed for hand soldering, and utilizes the "hand soldering" variants of the surface mount components in the default library. If you intend to do reflow you will want to redesign with the appropriate footprints. (Or do the HLV by hand, or perhaps it is OK? With small vias the solder tends to get sucked in, pulling the part down to the board. It may be less of an issue for standard QFNs.)
 
 ## Assembly
+* The secret to SMT assembly is magnification. Things are not so difficult when you can see them. I would not try to put this together without some kind of microscope or USB microscope.
+* The other secret is experience. I think some experience with fine-pitch soldering is necessary. 
+Speaking for myself, knowing how to recover from making a mess is essential, using flux and braid.
+* A fine-pitch temperature-controller soldering iron is advised, or hot air. I think I used Hakko tip T18-C05, a fine beveled shape. This is more for the QFN and fine-pitched stuff, 0603 and up benefits from the heat transfer of something bigger.
+* I would put U1 and the backside 0402s on first, they are harder to deal with when the board does not lie flat. 
+
+## Errata
+* LEDs too bright. I designed for 10mA but I would aim for 1mA or less.
 
 ## Links
 
